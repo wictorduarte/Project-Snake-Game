@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Snake Game</title>
+</head>
+<body>
+    <h1>SNAKE GAME!</h1>
+    <canvas id="snake" width="512" height="512"></canvas>
+    <div class="configuration">
+        <p>Choice your level and Start the Game</p>
+        <button id="play" onclick="btnPlay()">Play</button>
+        <button id="pause" onclick="btnPause()">Pause</button>
+        <button id="controllers" onclick="btnControllers()">View Controllers</button>
+        <div class="buttons-levels">
+            <button id="easy" onclick="levelEasy()">Easy</button>
+            <button id="medium" onclick="levelMedium()">Medium</button>
+            <button id="hard" onclick="levelHard()">Hard</button>
+        </div>
+    </div>
+</body>
+</html>
